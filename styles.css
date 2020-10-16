@@ -1,0 +1,25 @@
+.red-box {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 20px;
+}
+
+.yellow-box {
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  left: 250px;
+  top: 20px;
+}
+
+.green-box {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  left: 500px;
+  top: 20px;
+}
