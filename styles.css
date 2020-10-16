@@ -1,18 +1,32 @@
+p {
+  color: blue;
+  }
+
 .red-box {
   width: 200px;
+  border-width: 10px;
   height: 100px;
   background-color: red;
   position: absolute;
   top: 20px;
+  text-transform: uppercase;
+  border-style: dashed;
+  border-color: green;
+  text-align: center;
 }
 
 .yellow-box {
+  border-width: 10px;
   width: 200px;
   height: 100px;
   background-color: yellow;
   position: absolute;
   left: 250px;
   top: 20px;
+  text-transform: uppercase;
+  border-color: red;
+  border-style: solid;
+  text-align: center;
 }
 
 .green-box {
@@ -22,4 +36,9 @@
   position: absolute;
   left: 500px;
   top: 20px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-color: yellow;
+  text-allign: center;
+  border-width: 10px;
 }
